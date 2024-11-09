@@ -1,7 +1,4 @@
 /* Reset básico */
-.border-radius{
-    border-radius: 20px;
-}
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +10,9 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
 }
-
+.border-radius{
+    border-radius: 20px;
+}
 /* Cabeçalho */
 header {
     background: #007BFF;
