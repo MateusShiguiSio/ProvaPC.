@@ -1,5 +1,8 @@
 /* Reset básico */
 /* Cabeçalho */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-size: 18px;
 header {
     background: #007BFF;
     color: #ffffff;
