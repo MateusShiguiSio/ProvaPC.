@@ -1,4 +1,29 @@
 /* Reset básico */
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Cabeçalho */
+header {
+    background: #f4f4f4; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Navegação */
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe itens em linha */
+    margin: 0 15px; /* Aumenta o espa
 * {
     margin: 0;
     padding: 0;
