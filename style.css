@@ -47,7 +47,7 @@ main {
 .hero {
     text-align: center;
     padding: 20px;
-    background: #e9ecef;
+    background: #191970;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@ main {
 }
 
 .feature {
-    background: #f8f9fa;
+    background: #191970;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
