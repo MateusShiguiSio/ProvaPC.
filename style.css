@@ -1,4 +1,7 @@
 /* Reset básico */
+.border-radius{
+    border-radius: 20px;
+}
 * {
     margin: 0;
     padding: 0;
