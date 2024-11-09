@@ -1,70 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-            padding: 10px 20px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infraestrutura Educacional</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         nav {
             margin: 20px 0;
         }
         nav a {
             margin: 0 15px;
-            color: #007bff;
+            color: #fff;
             text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         section {
             padding: 20px;
             background: #fff;
             margin: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007bff;
         }
         footer {
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
             background: #007bff;
             color: #fff;
             position: relative;
             bottom: 0;
             width: 100%;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Infraestrutura Educacional</h1>
-    <nav>
-        <a href="#sobre">Sobre Nós</a>
-        <a href="#importancia">Importância</a>
-        <a href="#tipos">Tipos de Infraestrutura</a>
-        <a href="#projetos">Projetos em Destaque</a>
-        <a href="#recursos">Recursos</a>
-        <a href="#contato">Contato</a>
-    </nav>
+    <div class="container">
+        <h1>Infraestrutura Educacional</h1>
+        <nav>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#importancia">Importância</a>
+            <a href="#tipos">Tipos de Infraestrutura</a>
+            <a href="#projetos">Projetos em Destaque</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
 </header>
 
-<section id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>A infraestrutura educacional é um aspecto fundamental para o sucesso do ensino e aprendizagem. Este site foi criado com o objetivo de promover a conscientização sobre a importância da infraestrutura nas instituições de ensino, compartilhar melhores práticas e oferecer recursos úteis para educadores, gestores e interessados na área.</p>
-</section>
+<div class="container">
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A infraestrutura educacional é um aspecto fundamental para o sucesso do ensino e aprendizagem. Este site foi criado com o objetivo de promover a conscientização sobre a importância da infraestrutura nas instituições de ensino, compartilhar melhores práticas e oferecer recursos úteis para educadores, gestores e interessados na área.</p>
+    </section>
 
-<section id="importancia">
-    <h2>Importância da Infraestrutura Educacional</h2>
-    <p>A infraestrutura educacional abrange todos os aspectos físicos e tecnológicos que compõem o ambiente de aprendizagem. Isso inclui salas de aula, bibliotecas, laboratórios, áreas de recreação e tecnologia. A qualidade desses espaços influencia diretamente a experiência do aluno e pode afetar seu desempenho acadêmico.</p>
-    <p>Estudos mostram que ambientes de aprendizagem bem projetados e equipados promovem a motivação dos alunos, facilitam a colaboração e melhoram os resultados educacionais. Além disso, uma infraestrutura adequada garante a segurança e o bem-estar dos estudantes, criando um ambiente propício ao aprendizado.</p>
-</section>
+    <section id="importancia">
+        <h2>Importância da Infraestrutura Educacional</h2>
+        <p>A infraestrutura educacional abrange todos os aspectos físicos e tecnológicos que compõem o ambiente de aprendizagem. Isso inclui salas de aula, bibliotecas, laboratórios, áreas de recreação e tecnologia. A qualidade desses espaços influencia diretamente a experiência do aluno e pode afetar seu desempenho acadêmico.</p>
+        <p>Estudos mostram que ambientes de aprendizagem bem projetados e equipados promovem a motivação dos alunos, facilitam a colaboração e melhoram os resultados educacionais. Além disso, uma infraestrutura adequada garante a segurança e o bem-estar dos estudantes, criando um ambiente propício ao aprendizado.</p>
+    </section>
 
-<section id="tipos">
-    <h2>Tipos de Infraestrutura</h2>
-    <h3>Salas de Aula</h3>
-    <p>As salas de aula são o coração da educação. Um ambiente bem projetado deve ser flexível, permitindo diferentes arranjos de mobiliário para facilitar a interação e a colaboração entre os alunos. A tecnologia, como projetores e lousas interativas, também deve ser integrada para enriquecer o processo de ensino.</p>
+    <section id="tipos">
+        <h2>Tipos de Infraestrutura</h2>
+        <h3>Salas de Aula</h3>
+        <p>As salas de aula são o coração da educação. Um ambiente bem projetado deve ser flexível, permitindo diferentes arranjos de mobiliário para facilitar a interação e a colaboração entre os alunos. A tecnologia, como projetores e lousas interativas, também deve ser integrada para enriquecer o processo de ensino.</p>
 
-    <h3>Bibliotecas</h3>
-    <p>As bibliotecas desempenham um papel crucial no desenvolvimento da leitura e da pesquisa. Elas devem ser espaços acolhedores e acessíveis, com uma coleção diversificada de livros e recursos digitais. Além disso, áreas de estudo em grupo e salas de multimídia podem enriquecer a experiência dos alunos.</p>
+        <h3>Bibliotecas</h3>
+        <p>As bibliotecas desempenham um papel crucial no desenvolvimento da leitura e da pesquisa. Elas devem ser espaços acolhedores e acessíveis, com uma coleção diversificada de livros e recursos digitais. Além disso, áreas de estudo em grupo e salas de multimídia podem enriquecer a experiência dos alunos.</p>
 
-    <h3>Laboratórios</h3>
-    <p>Laboratórios de ciências, informática e outras disciplinas são essenciais para a aprendizagem prática. Esses espaços devem ser bem equipados e seguros, permitindo que os alunos experimentem e explorem conceitos de forma interativa. A tecnologia deve ser utilizada para simulações e experimentos que complementem o aprendizado teórico.</p>
-
-    <h3>Espaços Externos</h3>
-    <p>Áreas de recreação e esportes são importantes para o desenvolvimento físico e social dos alunos. Espaços ao ar livre, como quadras e parques, devem ser projetados para incentivar a atividade física e promover o bem-estar. A inclusão de jardins e áreas verdes também pode contribuir para um
+        <h3>Laboratórios</h3>
+        <p>Laboratórios de ciências, informática e outras disciplinas são essenciais para a aprendizagem prática. Esses espaços devem ser bem equipados e seguros, permitindo que os alunos experimentem e
